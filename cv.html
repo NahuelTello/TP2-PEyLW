@@ -1,12 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     
+    <title>Ejercicio 1</title>
+
+    <!-- Ejercicio 1 - Crear una página biográfica simple con el nombre cv.html, 
+    con los elementos de cabecera adecuados, y con el cuerpo que contenga datos personales, foto, familia, estudios, vida profesional, hobby, etc, probando: 
+    # Distintos encabezados 
+    # Formatos de caracteres 
+    # Uso de caracteres especiales 
+    # Uso de párrafos y líneas horizontales 
+    # Imágenes (podrían ser fotos) Uso de todo tipo de listas 
+    # Uso de link y/o anclas (genere un índice que permita ir a las diferentes secciones de su biografía, y en cada sección se debe poder volver al índice) -->
+
+
+</head>
+<body bgcolor="#38B6FF">
+    <h1 align="center">Matias Nahuel Tello Parra <img src="./imagenes/inmobiliariaLogo.jpg" align="middle" width="90" height="70"> </h1>
+    <ul>
+        <li>
+            <a href="#ancla1">Mas Info</a>
+        </li>
+    </ul>
+    <hr>
+    <h2>Descripción</h2>
+    <p align="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, sit enim? Dolore dignissimos pariatur sequi similique ex at aspernatur odit laudantium ullam aut ratione, nam quisquam, corporis, hic ut illo.
+        <img src="./imagenes/c1.jpg" align="middle">
+    </p>
+    <h2>DATOS PERSONALES</h2>
+    <ul>
+        <li>FLIA
+            <ol>
+                <li>Freddy (PAPA)</li>
+                <li>Paola (MAMA)</li>
+                <li><a href="https://www.instagram.com/nahuel_telloo/">Nahuel (YO)</a></li>
+                <li>Agustina (HERMANA)</li>
+                <li>Abril (HERMANA)</li>
+            </ol>
+        </li>
+        <li>ESTUDIOS <a name="ancla1"></a>
+            <ul>
+                <li>2022 - Tecnictura Universitaria en Desarrollo Web <img src="https://pbs.twimg.com/profile_images/520659845163134976/hTrrKkDr_400x400.png" align="middle" width="30" height="30">
+                    <ul>
+                        <li><dt>
+                        <dd><b>Universidad Nacional del Comahue</b></dd>
+                        </dt>
+                    </ul>
+                </li>
+                <li>2021 - Tecnictura Universitaria en Desarrollo Web <img src="https://pbs.twimg.com/profile_images/520659845163134976/hTrrKkDr_400x400.png" align="middle" width="30"
+                    height="30"><ul>
+                        <li>
+                            <dt>
+                            <dd><b>Universidad Nacional del Comahue</b></dd>
+                            </dt>
+                        </li>
+                    </ul></li>
+                <li>2020 - Licenciatura en Ciencias de la Computaci&oacute;n <img src="https://pbs.twimg.com/profile_images/520659845163134976/hTrrKkDr_400x400.png" align="middle" width="30"
+                    height="30"><ul>
+                        <li>
+                            <dt><dd><b>Universidad Nacional del Comahue</b></dd></dt>
+                        </li>
+                    </ul></li>
+                <li>2019 - T&eacute;cnico en Programaci&oacute;n <img src="data:image/png;base64,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" align="middle" width="30"
+                    height="30"><ul>
+                        <li>
+                            <!-- <p><b>Centro de Educaci&oacute;n T&eacute;cnica N°30</b></p> -->
+                            <dt>
+                                <dd><b>Centro de Educaci&oacute;n T&eacute;cnica N°30</b></dd>
+                            </dt>
+                        </li>
+                    </ul></li>
+            </ul>
+        </li>
+        <li>VIDA PROFESIONAL
+            <ul>
+                <li>INIT DEV</li>
+            </ul>
+        </li>
+        <li>HOBBY
+            <ul>
+                <li>
+                    DJ M&Uacute;SICA ELECTR&Oacute;NICA
+                </li>
+                <li>
+                    JUGADOR DE HANDBALL
+                </li>
+            </ul>
+        </li>
+    </ul>
 </body>
 </html>
